@@ -15,8 +15,28 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '笔记', link: '/notes/', activeMatch: '/notes/' },
-      { text: 'Blog', link: '/blog/', activeMatch: '/blog/' },
+      {
+        text: '笔记',
+        activeMatch: '/notes/',
+        items: [
+          { text: 'Algorithms', link: '/notes/algorithms/' },
+          { text: 'Golang', link: '/notes/golang/' },
+          { text: 'Database', link: '/notes/database/' },
+          { text: 'Network', link: '/notes/network/' },
+          { text: 'OS', link: '/notes/os/' },
+          { text: 'System Design', link: '/notes/system-design/' },
+        ],
+      },
+      {
+        text: 'Blog',
+        activeMatch: '/blog/',
+        items: [
+          { text: '技术', link: '/blog/tech/' },
+          { text: '职业', link: '/blog/career/' },
+          { text: '观点', link: '/blog/perspective/' },
+          { text: '生活', link: '/blog/life/' },
+        ],
+      },
       { text: '关于', link: '/about' },
     ],
 
