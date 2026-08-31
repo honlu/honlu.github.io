@@ -36,9 +36,9 @@ export default defineConfig({
           items: [
             { text: 'Go笔记', link: '/notes/golang/' },
             { text: 'Go面试题', link: '/notes/golang/go-interview/' },
-            { text: '并发', link: '/notes/golang/concurrency/' },
-            { text: '高级', link: '/notes/golang/advanced/' },
-            { text: 'runtime', link: '/notes/golang/runtime/' },
+            { text: '并发', link: '/notes/golang/concurrency' },
+            { text: '高级', link: '/notes/golang/advanced' },
+            { text: 'runtime', link: '/notes/golang/runtime' },
           ],
         },
         {
@@ -67,7 +67,7 @@ export default defineConfig({
           text: 'System Design',
           items: [
             { text: 'System Design', link: '/notes/system-design/' },
-            { text: '系统架构设计师备考助手', link: '/notes/system-design/arch-exam-prep/' },
+            { text: '系统架构设计师备考助手', link: '/notes/system-design/arch-exam-prep' },
           ],
         },
       ],

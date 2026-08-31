@@ -7,6 +7,9 @@ node_modules/
 .vitepress/dist/
 .vitepress/cache/
 
+# VitePress dev/build artifacts
+.vitepress/config.ts.timestamp-*.mjs
+
 # Logs
 *.log
 npm-debug.log*
