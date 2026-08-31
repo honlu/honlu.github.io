@@ -1,0 +1,15 @@
+{
+  "name": "honlu-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Andelu的空间 - VitePress 博客源码",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
