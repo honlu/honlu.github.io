@@ -1,0 +1,42 @@
+/* 自定义主题样式:中文字体栈 + 品牌色微调 */
+
+/* 中文字体优先栈:苹方 → 微软雅黑 → Noto Sans SC → sans-serif */
+:root {
+  --vp-font-family-base:
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans SC', 'Helvetica Neue', Arial, sans-serif;
+  --vp-font-family-mono:
+    'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace;
+
+  /* 品牌色:偏蓝的靛青,比默认紫色更沉稳 */
+  --vp-c-brand-1: #3b6ea5;
+  --vp-c-brand-2: #4a80b8;
+  --vp-c-brand-3: #5d92c8;
+  --vp-c-brand-soft: rgba(59, 110, 165, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #6b9fd4;
+  --vp-c-brand-2: #5d92c8;
+  --vp-c-brand-3: #4a80b8;
+  --vp-c-brand-soft: rgba(107, 159, 212, 0.16);
+}
+
+/* 中文正文行高更舒适 */
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.85;
+}
+
+/* 标题字距微调,中文更舒展 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  letter-spacing: 0.01em;
+}
+
+/* 首页 hero 名字大小微调 */
+.VPHome .name,
+.VPHome .text {
+  letter-spacing: 0.02em;
+}
