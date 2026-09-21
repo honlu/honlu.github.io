@@ -16,7 +16,7 @@ hero:
 features:
   - icon: 📚
     title: 笔记
-    details: 覆盖 Go、算法、数据库、网络、操作系统、系统设计六大方向，按主题分类整理。
+    details: 覆盖 Go、算法、数据库、网络、操作系统、系统设计、AI/ML 等方向，按主题分类整理。
     link: /notes/
     linkText: 全部笔记
   - icon: ✍️

@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'Network', link: '/notes/network/' },
           { text: 'OS', link: '/notes/os/' },
           { text: 'System Design', link: '/notes/system-design/' },
+          { text: 'AI / ML', link: '/notes/ai/' },
         ],
       },
       {
@@ -91,6 +92,13 @@ export default defineConfig({
           items: [
             { text: 'System Design', link: '/notes/system-design/' },
             { text: '系统架构设计师备考助手', link: '/notes/system-design/arch-exam-prep' },
+          ],
+        },
+        {
+          text: 'AI / ML',
+          items: [
+            { text: '概览', link: '/notes/ai/' },
+            { text: 'ASR 语音识别选型', link: '/notes/ai/asr' },
           ],
         },
       ],
